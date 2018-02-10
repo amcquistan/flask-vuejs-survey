@@ -48,3 +48,30 @@ export function fetchSurveys () {
     }, 300)
   })
 }
+
+export function fetchSurvey (surveyId) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const survey = surveys.find(survey => survey.id === surveyId)
+      if (survey) {
+        resolve(survey)
+      } else {
+        reject(Error('Survey does not exist'))
+      }
+    }, 300)
+  })
+}
+
+export function saveSurveyResponse (surveyResponse) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const survey = surveys.find(s => s.id === surveyResponse.id)
+      surveyResponse.questions.forEach(responseQ => {
+        const question = survey.questions.find(q => q.id === responseQ.id)
+        const choice = question.find(c => c.id === parseInt(responseQ.choice))
+        choice.selected++
+      })
+      resolve()
+    }, 300)
+  })
+}
