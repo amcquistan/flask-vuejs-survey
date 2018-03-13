@@ -1,6 +1,6 @@
 # flask-vuejs-survey
 
-The application code for a tutorial blog series that demonstrates how to build a full stack application using Python's Flask micro web framework and the Vue.js javascript framework.  The Vue.js framework is used for constructing an interactive and complete sigle page application (SPA) while the Flask framework is used to develop a RESTful API to consume, persist and, produce data for the frontend SPA.
+The application code for a tutorial blog series that demonstrates how to build a full stack survey application using Python's Flask micro web framework and the Vue.js javascript framework.  The Vue.js framework is used for constructing an interactive and complete sigle page application (SPA) while the Flask framework is used to develop a RESTful API to consume, persist and, produce data for the frontend SPA.
 
 The tutorial consists of a series of linked blog articles on [Stackabuse](http://stackabuse.com/) linked to branches on this github accout with the contents shown below.
 
