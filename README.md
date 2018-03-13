@@ -6,10 +6,10 @@ The tutorial consists of a series of linked blog articles on [Stackabuse](http:/
 
 ### Contents
 
-1. [Seup and Getting to Know VueJS](https://github.com/amcquistan/flask-vuejs-survey/tree/FirstPost)
-2. [Navigating Vue Router](https://github.com/amcquistan/flask-vuejs-survey/tree/SecondPost)
-3. [State Management with Vuex](https://github.com/amcquistan/flask-vuejs-survey/tree/ThirdPost)
-4. [RESTful API with Flask](https://github.com/amcquistan/flask-vuejs-survey/tree/FourthPost)
+1. [Seup and Getting to Know VueJS](http://stackabuse.com/single-page-apps-with-vue-js-and-flask-setting-up-vue-js/) - [FirstPost Branch](https://github.com/amcquistan/flask-vuejs-survey/tree/FirstPost)
+2. [Navigating Vue Router](http://stackabuse.com/single-page-apps-with-vue-js-and-flask-navigating-vue-router/) - [SecondPost Branch](https://github.com/amcquistan/flask-vuejs-survey/tree/SecondPost)
+3. [State Management with Vuex](http://stackabuse.com/single-page-apps-with-vue-js-and-flask-state-management-with-vuex/) - [ThirdPost Branch](https://github.com/amcquistan/flask-vuejs-survey/tree/ThirdPost)
+4. [RESTful API with Flask](http://stackabuse.com/single-page-apps-with-vue-js-and-flask-restful-api-with-flask/) - [FourthPost Branch](https://github.com/amcquistan/flask-vuejs-survey/tree/FourthPost)
 5. AJAX Integration with REST API _(coming soon)_
 6. Authentication _(coming soon)_
 7. Deployment to a Virtual Private Server _(coming soon)_
