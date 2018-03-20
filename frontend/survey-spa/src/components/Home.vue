@@ -12,7 +12,7 @@
 <div class="card" v-for="survey in surveys" v-bind:key="survey.id">
   <div class="card-content">
     <p class="title">{{ survey.name}}</p>
-    <p class='subtitle'>{{survey.created_at.toDateString()}}</p>
+    <p class='subtitle'>{{survey.created_at}}</p>
   </div>
   <div class="card-foooter">
     <router-link :to="`surveys/${survey.id}`" class="card-footer-item">Take Survey</router-link>
