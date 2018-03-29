@@ -17,6 +17,14 @@ export function saveSurveyResponse (surveyResponse) {
   return axios.put(`${API_URL}/surveys/${surveyResponse.id}/`, surveyResponse)
 }
 
-export function postNewSurvey (survey) {
-  return axios.post(`${API_URL}/surveys/`, survey)
+export function postNewSurvey (survey, jwt) {
+  return axios.post(`${API_URL}/surveys/`, survey, { headers: { Authorization: `Bearer: ${jwt}` } })
+}
+
+export function authenticate (userData) {
+  return axios.post(`${API_URL}/login/`, userData)
+}
+
+export function register (userData) {
+  return axios.post(`${API_URL}/register/`, userData)
 }
