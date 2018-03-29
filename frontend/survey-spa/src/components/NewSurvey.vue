@@ -94,7 +94,12 @@ export default {
       this.$store.dispatch('submitNewSurvey', {
         name: this.name,
         questions: this.questions
-      }).then(() => this.$router.push('/'))
+      })
+        .then(() => this.$router.push('/'))
+        .catch((error) => {
+          console.log('Error creating survey', error)
+          this.$router.push('/')
+        })
     }
   }
 }
