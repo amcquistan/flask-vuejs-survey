@@ -11,6 +11,6 @@ The tutorial consists of a series of linked blog articles on [Stackabuse](http:/
 3. [State Management with Vuex](http://stackabuse.com/single-page-apps-with-vue-js-and-flask-state-management-with-vuex/) - [ThirdPost Branch](https://github.com/amcquistan/flask-vuejs-survey/tree/ThirdPost)
 4. [RESTful API with Flask](http://stackabuse.com/single-page-apps-with-vue-js-and-flask-restful-api-with-flask/) - [FourthPost Branch](https://github.com/amcquistan/flask-vuejs-survey/tree/FourthPost)
 5. [AJAX Integration with REST API](http://stackabuse.com/single-page-apps-with-vue-js-and-flask-ajax-integration/) - [FifthPost Branch](https://github.com/amcquistan/flask-vuejs-survey/tree/FifthPost)
-6. Authentication _(coming soon)_
+6. [JWT Authentication](http://stackabuse.com/single-page-apps-with-vue-js-and-flask-jwt-authentication/) - [SixthPost Branch](https://github.com/amcquistan/flask-vuejs-survey/tree/SixthPost)
 7. Deployment to a Virtual Private Server _(coming soon)_
  
