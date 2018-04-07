@@ -30,7 +30,7 @@ const webpackConfig = merge(baseWebpackConfig, {
   plugins: [
     new webpack.DefinePlugin({
       'process.env': config.dev.env,
-      API_BASE: JSON.stringify('http://165.227.80.245/api')
+      API_URL: JSON.stringify('http://165.227.80.245/api')
     }),
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
