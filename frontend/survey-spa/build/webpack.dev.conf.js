@@ -64,7 +64,11 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         to: config.dev.assetsSubDirectory,
         ignore: ['.*']
       }
-    ])
+    ]),
+    new webpack.DefinePlugin({
+      'process.env': config.dev.env,
+      API_BASE: JSON.stringify('http://localhost:5000/api')
+    })
   ]
 })
 
