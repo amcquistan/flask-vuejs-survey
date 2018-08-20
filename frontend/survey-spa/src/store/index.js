@@ -28,7 +28,7 @@ const actions = {
   loadSurvey (context, { id }) {
     return fetchSurvey(id)
       .then((response) => {
-        context.commit('setSurvey', { survey: response.data })
+        context.commit('setSurvey', { survey: response.data.survey })
       })
   },
   addSurveyResponse (context) {
