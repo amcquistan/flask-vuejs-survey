@@ -19,6 +19,6 @@ python-editor==1.0.3
 requests==2.18.4
 six==1.11.0
 SQLAlchemy==1.2.5
-urllib3==1.22
+urllib3==1.26.5
 uWSGI==2.0.17
 Werkzeug==0.14.1
